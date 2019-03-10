@@ -1,0 +1,19 @@
+group 'Warehouse'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile 'org.junit.jupiter:junit-jupiter-api:5.0.1',
+            'org.hamcrest:java-hamcrest:+'
+    compile 'log4j:log4j:1.2.17',
+            'org.projectlombok:lombok:1.16.18',
+            'c3p0:c3p0:0.9.0.4',
+            'mysql:mysql-connector-java:5.1.46'
+}

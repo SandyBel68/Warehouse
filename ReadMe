@@ -1,0 +1,2 @@
+This program allows to interact with MySQL database, which contatins goods and consignment descriptions with their pricing info.
+The set of methods allows to add, change and get information from each table.
